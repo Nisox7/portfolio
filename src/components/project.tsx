@@ -111,7 +111,7 @@ export const Project = (project: ProjectType) => {
         ) : (
           <div className="min-h-full flex flex-col justify-center items-center px-2 text-center">
             <CardBody className="justify-center items-center gap-2">
-              <GithubSVG className="text-gray-500 dark:text-gray-400" />
+              <GithubSVG />
               <span className="text-sm text-gray-600 dark:text-gray-400">
                 Repositorio privado
               </span>
